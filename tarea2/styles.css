@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-navegacion ul {
+    list-style: none; 
+    display: flex;
+    gap: 40px; 
+    padding: 0;
+    margin: 0;
+}
+
+
+.barra-navegacion a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s ease;
+}
+
+
+.barra-navegacion a:hover {
+    color: blue; 
+}
